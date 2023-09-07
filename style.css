@@ -115,12 +115,10 @@
 
 
 .about{
-   padding-top:150px ;
+   padding-top:80px ;
    padding-bottom: 200px;
-   margin: 16px 20px;
    color: #6379a2;
-   display: flex;
-   justify-content: space-between;
+   margin-left: 15%;
    
  
 
@@ -135,7 +133,7 @@
 
 .abt{
     margin-top: 3rem;
-    width: 35%;
+    width: 80%;
     text-align: start;
     border-radius: 7px;
     margin: 10px;
@@ -143,6 +141,9 @@
     box-shadow: 0 5px 25px 2px grey;
 
 }
+.abt p{
+    text-align: center;
+} 
 .abt:hover{
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -265,9 +266,28 @@ textarea{
     color:#c7995e;
 }
 
-@media(max-width: 412px)
-{
-    .navMenu{
-        display:none;
-    }
+footer{
+    background-color: #6379a2;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 50px;
+    color:#e3dfda84;
+}
+.footer ul li {
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color:#e3dfda84;
+}
+
+footer p{
+    color:rgba(255, 255, 255, 0.749);
+    text-align: center;
+    
 }
