@@ -229,9 +229,7 @@
     width: 50%;
     padding: 10px;
     background-color:rgb(220, 214, 214);
-   
-    
-    
+
 }
 .contact form input{
     padding: 24px;
@@ -310,12 +308,16 @@ footer p{
         
         
     }
+    .hero p{
+        text-align: center;
+    }
     .about{
        width: 100%;
        color: #6379a2;
        padding-top:0 ;
        padding-bottom:0;
        margin-left: 0;
+       margin-top: 100px;
       
        
 
@@ -323,10 +325,12 @@ footer p{
     .abt{
 
         width: 100%;
-        text-align: start;
+        text-align: center;
         border-radius: 7px;
-        margin: 0px;
         padding: 20px;
+        margin: 0;
+        margin-top: 10px;
+        
     
     }
     .abt:hover{
@@ -334,7 +338,8 @@ footer p{
         cursor: none;
    }
     .services{
-        margin: 16px 20px;
+        margin: 0;
+        
         color: #6379a2;
         display: flex;
         justify-content: space-between;
@@ -347,13 +352,18 @@ footer p{
     border-radius: 7px;
     box-shadow: 0 5px 25px 2px grey;
     margin: 0;
+    margin-top: 10px;
 
+    }
+    .services img{
+        display: none;
     }
 
     .contact{
          align-items:center;
          padding:80px 16px;
          height: 50%;
+         text-align: center;
          
     }
 
@@ -364,6 +374,99 @@ footer p{
         display: none;
     }
     
+}
 
+@media(min-width:890px) and (max-width:1200px){
+    .navMenu ul{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+    }
+    .navMenu ul li{
+        margin-right: 1px;
+    }
+    .hero{
+        height: 70vh;
+    }
 
+    .about{
+        margin: 0; 
+        padding-bottom: 0; 
+    }
+    
+    .abt{
+        width: 100%;
+        margin: 0;
+    }
+    .abt:hover{
+        transform: none;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .sect{
+        width:100%;
+        margin: 0;
+    }
+    .services img{
+        display: none;
+    }
+
+    .contact{
+        text-align: center;
+    }
+    
+}
+@media(max-width:889px){
+    .navMenu ul li a{
+        display: none;
+    }
+    .navMenu ul{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+    }
+    .navMenu ul li{
+        margin-right: 1px;
+    }
+    .hero{
+        height: 70vh;
+    }
+
+    .about{
+        margin: 0; 
+        padding-bottom: 0; 
+    }
+    
+    .abt{
+        width: 100%;
+        margin: 0;
+    }
+    .abt:hover{
+        transform: none;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .sect{
+        width:100%;
+        margin: 0;
+    }
+    .services img{
+        display: none;
+    }
+
+    .contact{
+        text-align: center;
+    }
+    .contact form{
+        width:100%;
+    }
+    .footer{
+        display:none;
+    }
 }
