@@ -168,6 +168,7 @@
     color: #6379a2;
     display: flex;
     justify-content: space-between;
+
     
 }
 .services img{
@@ -274,7 +275,7 @@ footer{
 }
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly ;
     margin: 10px 50px;
     color:#e3dfda84;
 }
@@ -290,4 +291,79 @@ footer p{
     color:rgba(255, 255, 255, 0.749);
     text-align: center;
     
+}
+
+@media (max-width : 428px){
+   
+    .navMenu ul li {
+        display: none;
+
+    }
+    .hero{
+        width: 100% ;
+        height: 60vh;
+        margin: 0;
+        background-size: cover;
+        padding: 50px 80px;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .about{
+       width: 100%;
+       color: #6379a2;
+       padding-top:0 ;
+       padding-bottom:0;
+       margin-left: 0;
+      
+       
+
+    }
+    .abt{
+
+        width: 100%;
+        text-align: start;
+        border-radius: 7px;
+        margin: 0px;
+        padding: 20px;
+    
+    }
+    .abt:hover{
+        transform: none;
+        cursor: none;
+   }
+    .services{
+        margin: 16px 20px;
+        color: #6379a2;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .sect{
+    width: 100%;
+    text-align: start;
+    border-radius: 7px;
+    box-shadow: 0 5px 25px 2px grey;
+    margin: 0;
+
+    }
+
+    .contact{
+         align-items:center;
+         padding:80px 16px;
+         height: 50%;
+         
+    }
+
+    .contact form{
+        width: 100%;
+    }
+    .footer{
+        display: none;
+    }
+    
+
+
 }
